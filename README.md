@@ -1,6 +1,6 @@
 # LeetCode Solutions Web
 
-![Banner](https://codeabinash.github.io/leetcode-solutions-web/images/banner.jpg)
+![Banner](https://codeabinash.github.io/leetcode-solutions-web/images/banner-md.jpg)
 
 
 ### [Live Website](https://codeAbinash.github.io/leetcode-solutions-web/)
