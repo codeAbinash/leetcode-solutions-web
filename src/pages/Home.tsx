@@ -16,6 +16,14 @@ const randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
 let codes: string[] = []
 let currentSearchedProblem = ''
 
+function setPageTitle(title: string) {
+   if (title === 'hello-world') {
+      document.title = 'LeetCode Solutions'
+      return
+   }
+   document.title = `${title} - Solution`
+}
+
 export default function Home() {
    const [currentLanguage, setCurrentLanguage] = useState(LANGUAGES[0])
    const [currentCodeIndex, setCurrentCodeIndex] = useState(0)
@@ -33,6 +41,7 @@ export default function Home() {
          setCurrentCodeIndex(() => findInitialIndex(codes))
          setCurrentCode(codes[currentCodeIndex] || '')
          currentSearchedProblem = extracted
+         setPageTitle(extracted)
          setIsLoading(false)
       }
    }
