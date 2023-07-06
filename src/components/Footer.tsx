@@ -6,7 +6,7 @@ export default function Footer() {
          <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
                <a href="#" className="flex items-center">
-                  <img src={icons.logo192} className="h-12 mr-3 rounded-full" />
+                  <img src={icons.logo192} className="h-12 mr-3 rounded-full" alt="logo"/>
                   <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">LeetCode Solutions</span>
                </a>
             </div>

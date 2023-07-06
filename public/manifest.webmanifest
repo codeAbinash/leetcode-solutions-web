@@ -14,10 +14,10 @@
             "purpose": "any"
         },
         {
-            "src": "icons/icon512.png",
+            "src": "icons/icon512-mask.png",
             "sizes": "512x512",
             "type": "image/png",
-            "purpose": "any"
+            "purpose": "any maskable"
         },
         {
             "src": "icons/icon196.png",
