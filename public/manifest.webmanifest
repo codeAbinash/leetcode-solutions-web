@@ -3,9 +3,9 @@
     "name": "LeetCode Solutions",
     "start_url": "/leetcode-solutions-web/",
     "display": "standalone",
-    "background_color": "#FFFFFF",
+    "background_color": "#101626",
     "description": "A Collection of LeetCode Problems and Solutions",
-    "theme_color": "#FFFFFF",
+    "theme_color": "#101626",
     "icons": [
         {
             "src": "icons/icon192.png",
