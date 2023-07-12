@@ -1,12 +1,12 @@
 export const LANGUAGES = [
-   'C++',  'Java', 'Python', 'C','JavaScript',
+   'C++',  'Java', 'Python', 'C','JavaScript', 'TypeScript',
 ]
 export const FILE_EXTENSIONS = [
-   'cpp',  'java', 'py', 'c','js',
+   'cpp',  'java', 'py', 'c','js','ts',
 ]
 
 export const HIGHLIGHT_TYPES = [
-   'language-clike',  'language-java', 'language-python', 'language-clike','language-javascript',
+   'language-clike',  'language-java', 'language-python', 'language-clike','language-javascript', 'language-typescript'
 ]
 
 export const CODE_NOT_FOUND_TEXT = 
