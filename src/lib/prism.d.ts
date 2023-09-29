@@ -1,1 +1,1 @@
-export default function highlight()
+export default function highlight();

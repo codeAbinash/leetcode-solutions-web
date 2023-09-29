@@ -5,22 +5,22 @@
 // @use './markdown_compiled';
 
 * {
-   padding: 0;
-   margin: 0;
-   box-sizing: border-box;
-   font-family: Rubik, Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Rubik, Arial, Helvetica, sans-serif;
 }
 
 html {
-   scroll-behavior: smooth;
-   // If it is in dark mode
-   @media (prefers-color-scheme: dark) {
-      background-color: var(--dark);
-   }
+  scroll-behavior: smooth;
+  // If it is in dark mode
+  @media (prefers-color-scheme: dark) {
+    background-color: var(--dark);
+  }
 }
 
 // Set color on scrollbar
 :root {
-   // Set color scheme dark if it is dark
-   color-scheme: dark;
+  // Set color scheme dark if it is dark
+  color-scheme: dark;
 }

@@ -1,101 +1,101 @@
 {
-    "short_name": "LeetCode Solutions",
-    "name": "LeetCode Solutions",
-    "start_url": "/leetcode-solutions-web/",
-    "display": "standalone",
-    "background_color": "#101626",
-    "description": "A Collection of LeetCode Problems and Solutions",
-    "theme_color": "#101626",
-    "icons": [
+  "short_name": "LeetCode Solutions",
+  "name": "LeetCode Solutions",
+  "start_url": "/leetcode-solutions-web/",
+  "display": "standalone",
+  "background_color": "#101626",
+  "description": "A Collection of LeetCode Problems and Solutions",
+  "theme_color": "#101626",
+  "icons": [
+    {
+      "src": "icons/icon192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon512-mask.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon196.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/favicon.ico",
+      "type": "image/ico",
+      "sizes": "256x256",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "images/screen/s1.webp",
+      "type": "image/webp",
+      "sizes": "370x800",
+      "platform": "wide",
+      "label": "Home"
+    },
+    {
+      "src": "images/screen/s2.webp",
+      "type": "image/webp",
+      "sizes": "370x800",
+      "platform": "wide",
+      "label": "Code"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Home",
+      "short_name": "Home",
+      "description": "Home",
+      "url": "/leetcode-solutions-web/",
+      "icons": [
         {
-            "src": "icons/icon192.png",
-            "sizes": "192x192",
-            "type": "image/png",
-            "purpose": "any"
-        },
-        {
-            "src": "icons/icon512-mask.png",
-            "sizes": "512x512",
-            "type": "image/png",
-            "purpose": "any maskable"
-        },
-        {
-            "src": "icons/icon196.png",
-            "sizes": "196x196",
-            "type": "image/png",
-            "purpose": "any"
-        },
-        {
-            "src": "icons/favicon.ico",
-            "type": "image/ico",
-            "sizes" : "256x256",
-            "purpose": "any"
+          "src": "icons/icon96.png",
+          "sizes": "96x96"
         }
-    ],
-    "screenshots": [
+      ]
+    },
+    {
+      "name": "Solutions",
+      "short_name": "Charts",
+      "description": "Charts",
+      "url": "/leetcode-solutions-web/",
+      "icons": [
         {
-            "src": "images/screen/s1.webp",
-            "type": "image/webp",
-            "sizes": "370x800",
-            "platform": "wide",
-            "label": "Home"
-        },
-        {
-            "src": "images/screen/s2.webp",
-            "type": "image/webp",
-            "sizes": "370x800",
-            "platform": "wide",
-            "label": "Code"
+          "src": "icons/icon96.png",
+          "sizes": "96x96"
         }
-    ],
-    "shortcuts": [
+      ]
+    },
+    {
+      "name": "Problems",
+      "short_name": "Settings",
+      "description": "Settings",
+      "url": "/leetcode-solutions-web/",
+      "icons": [
         {
-            "name": "Home",
-            "short_name": "Home",
-            "description": "Home",
-            "url": "/leetcode-solutions-web/",
-            "icons": [
-                {
-                    "src": "icons/icon96.png",
-                    "sizes": "96x96"
-                }
-            ]
-        },
-        {
-            "name": "Solutions",
-            "short_name": "Charts",
-            "description": "Charts",
-            "url": "/leetcode-solutions-web/",
-            "icons": [
-                {
-                    "src": "icons/icon96.png",
-                    "sizes": "96x96"
-                }
-            ]
-        },
-        {
-            "name": "Problems",
-            "short_name": "Settings",
-            "description": "Settings",
-            "url": "/leetcode-solutions-web/",
-            "icons": [
-                {
-                    "src": "icons/icon96.png",
-                    "sizes": "96x96"
-                }
-            ]
-        },
-        {
-            "name" : "More",
-            "short_name": "More",
-            "description": "More",
-            "url": "/leetcode-solutions-web/",
-            "icons": [
-                {
-                    "src": "icons/icon96.png",
-                    "sizes": "96x96"
-                }
-            ]
+          "src": "icons/icon96.png",
+          "sizes": "96x96"
         }
-    ]
+      ]
+    },
+    {
+      "name": "More",
+      "short_name": "More",
+      "description": "More",
+      "url": "/leetcode-solutions-web/",
+      "icons": [
+        {
+          "src": "icons/icon96.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
 }

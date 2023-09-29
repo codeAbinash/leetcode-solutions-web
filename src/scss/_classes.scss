@@ -1,101 +1,96 @@
-$accent : #78CAF9;
+$accent: #78caf9;
 
 .no-highlight,
 .highlight-none {
-   -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .bg-main {
-   background-color: var(--bg);
+  background-color: var(--bg);
 }
 
 .flex-center {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .screen {
-   min-height: 100dvh;
-   // user-select: none;
+  min-height: 100dvh;
+  // user-select: none;
 }
 
 .tap,
 .tap99,
 .tap97,
 .tap95 {
-   transition-duration: 100ms;
+  transition-duration: 100ms;
 }
 
 .tap {
-   &:active {
-      scale: 0.95;
-   }
+  &:active {
+    scale: 0.95;
+  }
 }
 
 .tap99 {
-   &:active {
-      scale: 0.99;
-   }
+  &:active {
+    scale: 0.99;
+  }
 }
 
 .tap97 {
-   &:active {
-      scale: 0.97;
-   }
+  &:active {
+    scale: 0.97;
+  }
 }
 
 .tap95 {
-   &:active {
-      scale: 0.95;
-   }
+  &:active {
+    scale: 0.95;
+  }
 }
 
 .debug {
-   outline: 1px solid red;
+  outline: 1px solid red;
 
-   * {
-      outline: 1px solid red;
-
-   }
+  * {
+    outline: 1px solid red;
+  }
 }
 
 .d {
-   outline: 1px solid red;
-
+  outline: 1px solid red;
 }
 
 .scrollbar-hidden::-webkit-scrollbar {
-   display: none;
+  display: none;
 }
 
 .scrollbar-hidden {
-   -ms-overflow-style: none;
-   scrollbar-width: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
-
 
 .text-balance {
-   text-wrap: balance;
+  text-wrap: balance;
 }
-
 
 .bg-image {
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-
 
 .scroll-margin-header {
-   scroll-margin-top: 60px;
+  scroll-margin-top: 60px;
 
-   // In medium screen
-   @media (min-width: 768px) {
-      scroll-margin-top: 75px;
-   }
+  // In medium screen
+  @media (min-width: 768px) {
+    scroll-margin-top: 75px;
+  }
 }
 
-.limegreen{
-   color: limegreen;
+.limegreen {
+  color: limegreen;
 }
