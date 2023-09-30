@@ -162,7 +162,7 @@ function Code({
           <code>{generateLineNumbers(currentCode || CODE_NOT_FOUND_TEXT)}</code>
         </pre>
       </div>
-      <pre className='scrollbar-hidden overflow-auto'>
+      <pre className='scrollbar-hidden overflow-auto pl-2'>
         <code className={currentCode ? HIGHLIGHT_TYPES[currentCodeIndex] : 'text'}>
           {currentCode || CODE_NOT_FOUND_TEXT}
         </code>
@@ -184,9 +184,9 @@ function CodeHeader({ currentCode, currentIndex }: { currentCode: string; curren
   return (
     <div className='scrollbar-hidden flex flex-none select-none items-center gap-3 overflow-auto border-b border-slate-500/30 p-1 font-[450]'>
       <div className='flex h-8 items-center space-x-1.5 px-3'>
-        <div className='h-2.5 w-2.5 rounded-full bg-red-500'></div>
-        <div className='h-2.5 w-2.5 rounded-full bg-yellow-500'></div>
-        <div className='h-2.5 w-2.5 rounded-full bg-green-500'></div>
+        <div className='h-2.5 w-2.5 rounded-full bg-red-500 transition-transform hover:scale-110'></div>
+        <div className='h-2.5 w-2.5 rounded-full bg-yellow-500 transition-transform hover:scale-110'></div>
+        <div className='h-2.5 w-2.5 rounded-full bg-green-500 transition-transform hover:scale-110'></div>
       </div>
       <div className='no-highlight flex gap-5 pr-4 text-sm'>
         <p
