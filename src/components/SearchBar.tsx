@@ -39,6 +39,7 @@ export default function SearchBar({ onChange, onSearch }: { onChange?: Function;
             </svg>
           </div>
           <input
+            autoFocus={true}
             onKeyDown={(e: any) => {
               if (e.keyCode === 13) {
                 onSearch(e.target.value);
