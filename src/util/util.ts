@@ -1,5 +1,5 @@
-export const LANGUAGES = ['C++', 'Java', 'Python', 'C', 'JavaScript', 'TypeScript'];
-export const FILE_EXTENSIONS = ['cpp', 'java', 'py', 'c', 'js', 'ts'];
+export const LANGUAGES = ['C++', 'Java', 'Python', 'C', 'JavaScript', 'TypeScript', 'Rust'];
+export const FILE_EXTENSIONS = ['cpp', 'java', 'py', 'c', 'js', 'ts', 'rs'];
 
 export const HIGHLIGHT_TYPES = [
   'language-clike',
@@ -8,6 +8,7 @@ export const HIGHLIGHT_TYPES = [
   'language-clike',
   'language-javascript',
   'language-typescript',
+  'language-rust',
 ];
 
 export const CODE_NOT_FOUND_TEXT = `No solution found for this problem.
